@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    display: flex;
+    padding: 0 10px;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(128, 247, 124, 0.591);
+}
+.container {
+    height: 270px;
+    max-width: 610px;
+    border-color: rgb(108, 14, 14);
+    border-radius: 8px;
+    padding: 20px 25px 0;
+    transition: height 0.3s ease;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+}
+header h1{
+    font-size: 25px;
+    font-weight: 500;
+}
+.form p {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.container .form {
+    margin: 20px 0 25px;
+    
+}
+.form :where(input, button) {
+    width: 90px;
+    height: 55px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    transition: 0.1s ease;
+}
+.form input{
+    font-size: 18px;
+    padding: 0 17px;
+    border-radius: 1px solid black;
+}
+button{
+    width: 100%;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: black;
+}
+.hra:hover {
+    color: black;
+}
